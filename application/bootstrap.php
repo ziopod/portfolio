@@ -109,7 +109,7 @@ Kohana::init(array(
 /**
 * Cookie salt
 **/
-// Cookie::$salt = 
+Cookie::$salt = 'l2PMDqHyeSmTweRTw5U9dCFYpauLmcRB';
 
 /**
  * Attach the file write to logging. Multiple writers are supported.
