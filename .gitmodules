@@ -1,0 +1,15 @@
+[submodule "system"]
+	path = system
+	url = https://github.com/kohana/core.git
+[submodule "modules/guide"]
+	path = modules/guide
+	url = https://github.com/kohana/userguide.git
+[submodule "modules/cache"]
+	path = modules/cache
+	url = https://github.com/kohana/cache.git
+[submodule "modules/kostache"]
+	path = modules/kostache
+	url = https://github.com/zombor/KOstache.git
+[submodule "modules/flatfile"]
+	path = modules/flatfile
+	url = git@github.com:ziopod/flatfile.git
