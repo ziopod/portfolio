@@ -3,6 +3,11 @@
 class View_App extends Flatfile_View_App {
 
 	/**
+	* Titre
+	**/
+	public $title = "Ziopod";
+
+	/**
 	* Feuilles de styles
 	**/
 	public function styles()
@@ -12,6 +17,10 @@ class View_App extends Flatfile_View_App {
 				'src'	=> $this->base_url() . 'css/style.css',
 				'media'	=> 'screen',
 			),
+			array(
+				'src'	=> '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css',
+				'media'	=> 'all',
+			)
 		);
 	}
 

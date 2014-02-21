@@ -1,0 +1,30 @@
+@import 'libs/reset.less';
+@import 'libs/grid.less';
+@import 'libs/layout.less';
+
+// Config
+@font-alt			: Verdana, sans-serif;
+@column-width: 72;
+@gutter-width: 24;
+
+/**
+* CSS semantic style, with clean HTML!
+**/
+.wrapper > header, .wrapper > nav,
+.wrapper > article, .wrapper > footer {
+	.column(12);
+}
+
+.wrapper{
+	.wrapper();
+	.clearfix();
+}
+
+/**
+* Move to layout.less
+**/
+.wrapper()
+{
+	width: @gridsystem-width;
+	margin: 0 auto;
+}
